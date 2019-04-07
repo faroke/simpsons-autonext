@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfile>
+    <settings program="actiona" version="3.9.4" scriptVersion="1.1.0" os="Windows"/>
+    <actions>
+        <action name="ActionGoto" version="1.0.0"/>
+        <action name="ActionFindImage" version="1.1.0"/>
+        <action name="ActionClick" version="1.0.0"/>
+    </actions>
+    <parameters/>
+    <resources/>
+    <script pauseBefore="0" pauseAfter="0">
+        <action name="ActionFindImage">
+            <exception id="2" action="1" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="imageToSearchIn">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="confidenceMinimum">
+                <subParameter name="value" code="0">70</subParameter>
+            </parameter>
+            <parameter name="downPyramidCount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="windowName">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="windowRelativePosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+            <parameter name="imageToFind">
+                <subParameter name="value" code="0">Capture.PNG</subParameter>
+            </parameter>
+            <parameter name="searchDelay">
+                <subParameter name="value" code="0">100</subParameter>
+            </parameter>
+            <parameter name="source">
+                <subParameter name="value" code="0">screenshot</subParameter>
+            </parameter>
+            <parameter name="maximumMatches">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="confidence">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="ifNotFound">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">wait</subParameter>
+            </parameter>
+            <parameter name="method">
+                <subParameter name="value" code="0">correlationcoefficient</subParameter>
+            </parameter>
+            <parameter name="ifFound">
+                <subParameter name="line" code="0">002</subParameter>
+                <subParameter name="action" code="0">goto</subParameter>
+            </parameter>
+            <parameter name="searchExpansion">
+                <subParameter name="value" code="0">15</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick">
+            <exception id="2" action="1" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">108:738</subParameter>
+            </parameter>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionGoto">
+            <exception id="2" action="1" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <parameter name="line">
+                <subParameter name="value" code="0">001</subParameter>
+            </parameter>
+        </action>
+    </script>
+</scriptfile>
