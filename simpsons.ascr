@@ -30,7 +30,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
             <parameter name="imageToFind">
-                <subParameter name="value" code="0">Capture.PNG</subParameter>
+                <subParameter name="value" code="0">C:/Users/Yann/Pictures/Capture.PNG</subParameter>
             </parameter>
             <parameter name="searchDelay">
                 <subParameter name="value" code="0">100</subParameter>
