@@ -2,6 +2,7 @@
 <scriptfile>
     <settings program="actiona" version="3.9.4" scriptVersion="1.1.0" os="Windows"/>
     <actions>
+        <action name="ActionMoveCursor" version="1.0.0"/>
         <action name="ActionGoto" version="1.0.0"/>
         <action name="ActionFindImage" version="1.1.0"/>
         <action name="ActionClick" version="1.0.0"/>
@@ -77,13 +78,26 @@
             </parameter>
             <parameter name="position">
                 <subParameter name="unit" code="0">0</subParameter>
-                <subParameter name="value" code="0">108:738</subParameter>
+                <subParameter name="value" code="0">125:743</subParameter>
             </parameter>
             <parameter name="button">
                 <subParameter name="value" code="0">left</subParameter>
             </parameter>
             <parameter name="amount">
                 <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionMoveCursor">
+            <exception id="2" action="1" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <parameter name="positionOffset">
+                <subParameter name="value" code="0"></subParameter>
+                <subParameter name="unit" code="0">0</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0">1199:419</subParameter>
+                <subParameter name="unit" code="0">0</subParameter>
             </parameter>
         </action>
         <action name="ActionGoto">
